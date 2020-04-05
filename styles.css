@@ -63,7 +63,7 @@ html, body {
     text-align: center;
     margin: 0;
     font-size: 4em;
-    font-family: "Booter - Zero Zero";
+    font-family: "Times New Roman", Times, serif;
     font-weight: normal;
     color: white;
 }
@@ -77,7 +77,7 @@ html, body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
 }
@@ -203,7 +203,13 @@ html, body {
 }
 
 .shop-item {
-    margin: 30px;
+  padding: 0px 200px 0px 10px;
+  margin: 1rem 1rem 1rem 1rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  align-self: auto;
+
+
 }
 
 .shop-item-title {
@@ -218,6 +224,7 @@ html, body {
 
 .shop-item-image {
     height: 250px;
+    align-self: center;
 }
 
 .shop-item-details {
@@ -232,9 +239,9 @@ html, body {
 }
 
 .shop-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
+
+    align-self: auto;
 }
 
 .cart-header {
