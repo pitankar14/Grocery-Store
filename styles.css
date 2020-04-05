@@ -203,11 +203,10 @@ html, body {
 
 .shop-item {
   padding: 0px 10px 0px 10px;
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem 2rem 1rem 2rem;
   background-color: #e9ecef;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
   align-self: auto;
-
 
 }
 
@@ -223,7 +222,6 @@ html, body {
 
 .shop-item-image {
     height: 250px;
-    align-self: ;
 }
 
 .shop-item-details {
@@ -239,7 +237,8 @@ html, body {
 
 .shop-items {
 
-
+  display: flex;
+      flex-wrap: wrap;
     align-self: auto;
 }
 
