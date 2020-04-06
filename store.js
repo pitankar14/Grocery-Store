@@ -68,7 +68,7 @@ function addItemToCart(title, price, imageSrc) {
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title');
     for (var i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
-            alert('This item is already added to the cart');
+            alert('This item is already added to the cart.To increase quantity refer to our cart.');
             return;
         }
     }
@@ -86,6 +86,7 @@ function addItemToCart(title, price, imageSrc) {
     cartItems.append(cartRow);
     cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem);
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged);
+    alert("Item is added successfully!");
 }
 
 function updateCartTotal() {
