@@ -67,7 +67,8 @@ html, body {
     margin: 0;
     font-size: 4em;
     font-weight: normal;
-    color: white;
+    color: #cccbca;
+    font-family:  Helvetica;
 }
 
 .band-name-large {
@@ -85,7 +86,7 @@ html, body {
 
 }
 .section-header {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Helvetica;
     font-weight: bolder;
     color: #333;
     text-align: center;
